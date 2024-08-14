@@ -1,0 +1,85 @@
+.card {
+  width: 350px;
+  max-height: 250px;
+  padding: 10px 10px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card-heading {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+.company-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.company-details {
+  display: flex;
+  flex-direction: column;
+}
+.company-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.country {
+  font-size: 10px;
+  color: rgb(83, 74, 74);
+}
+.card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.job-postion {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2px;
+}
+.job-created-day,
+.job-description {
+  font-size: 9px;
+  padding: 2px;
+  margin-bottom: 6px;
+}
+.card-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 10px 10px 0px;
+}
+.btn1 {
+  color: black;
+  padding: 1px 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid rgb(228, 224, 224);
+}
+.btn2 {
+  background-color: rgb(159, 20, 134);
+  color: white;
+  padding: 1px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid rgb(244, 241, 241);
+}
+.p1-card-details {
+  font-size: 8px;
+  color: rgb(246, 29, 29);
+  font-weight: bold;
+  align-items: center;
+  padding: 1px 5px;
+  border: 0.5px solid rgb(89, 84, 84);
+  border-radius: 6px;
+}

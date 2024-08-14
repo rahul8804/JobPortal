@@ -1,0 +1,83 @@
+.profile-page {
+  width: 60%;
+  min-width: 450px;
+
+  margin: auto;
+  align-items: center;
+}
+.profile-card {
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profile-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 2px;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.mail-details {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  gap: 10px;
+}
+.phone-details {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.font {
+  font-size: small;
+}
+.boldFont {
+  font-size: medium;
+  font-weight: bold;
+}
+.skills-details {
+  display: flex;
+  justify-self: start;
+  padding: 2px;
+  gap: 5px;
+  margin-top: 5px;
+}
+.card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.p1-card-details {
+  font-size: 8px;
+  color: rgb(248, 245, 245);
+  font-weight: bold;
+  align-items: center;
+  padding: 1px 5px;
+  background-color: black;
+  border-radius: 6px;
+}
+.resume {
+  margin-top: 10px;
+}
+.icon {
+  max-width: 25px;
+  max-height: 25px;
+  align-items: center;
+  padding: 2px;
+}

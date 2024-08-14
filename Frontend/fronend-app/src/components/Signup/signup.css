@@ -1,0 +1,35 @@
+.signup-form {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px 10px 10px 10px;
+  /* background-color: rgb(171, 88, 88);
+    color: rgb(177, 25, 25); */
+  border: 1px solid rgb(224, 219, 219);
+  border-radius: 5px;
+}
+.form-radio {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.submit-btn {
+  width: 100%;
+  background-color: rgb(6, 6, 6);
+  color: white;
+  padding: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.input-field {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(224, 219, 219);
+}
